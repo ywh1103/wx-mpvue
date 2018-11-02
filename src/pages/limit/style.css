@@ -1,0 +1,73 @@
+.content-page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0 15px;
+    font-size:15px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(49,49,61,1);
+  }
+  .limit-activity{
+      width: 100%;
+      height: 58px;
+      line-height: 58px;
+      border-bottom: 1px solid #EEEEF0;
+      overflow: hidden;
+  }
+  .activity-title{
+      margin-right: 12px;
+  }
+  .activity-coin-number{
+    font-size:17px;
+    font-family:fonteditor;
+    color:rgba(255,105,31,1);
+    background: url("../../assets/image/coin-icon.png") no-repeat 0 center;
+    background-size: 15px;
+    text-indent: 20px;
+  }
+  .activity-status{
+    font-size:15px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(76,151,255,1);
+  }
+  .done{
+    color:rgba(255,105,31,1);
+  }
+  .btn-block{
+      height: 43px;
+      line-height: 43px;
+      width: 90%;
+      margin: 20px auto 0;
+      background:linear-gradient(90deg,rgba(255,154,31,1) 0%,rgba(255,105,31,1) 100%);
+      border-radius:22px;
+      position: relative;
+  }
+  .btn-block::after{
+    position: absolute;
+    content: '';
+    width:1px;
+    height:20px;
+    background-color: #fff;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+  .btn-block button{
+      border: none;
+      background: none;
+      font-size:13px;
+      font-family:PingFangSC-Regular;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+      width: 50%;
+      float: left;
+      height: 43px;
+      line-height: 43px;
+      text-align: center;
+  }
+  

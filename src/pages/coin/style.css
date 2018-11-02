@@ -1,0 +1,253 @@
+.content-page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+.block{
+    /* width: 100%; */
+    padding: 0 15px;
+}
+
+.f8{
+    width: 100%;
+    height: 12px;
+    background-color: #f8f8f8;
+}
+.coin-header{
+    /* width: 100%; */
+    height:275rpx;    
+    background:rgba(255,105,31,1);
+    padding-right:0; 
+    font-size:13px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    padding-top: 25px;
+}
+.coin-header .coin-number{
+    font-size:50px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    height: 60px;
+    line-height:60px;
+}
+.coin-detail{
+    background: url("../../assets/image/select-white-icon.png") no-repeat 90% 75%;
+    background-size: 16%;
+    overflow: hidden;
+    width: 70px;
+}
+.coin-detail span{
+    border-bottom: 1px solid #fff;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    width: 52px;
+    margin-top:10px;    
+}
+.my-redPacket{
+    width: 100px;
+    height: 35px;
+    margin-top: 25px;
+}
+.my-redPacket img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.padding-coin{
+    height: 65px;
+    line-height: 65px;
+    font-size:17px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(49,49,61,1);
+    background: url("../../assets/image/coin-icon.png") no-repeat 15px center;
+    background-size: 15px;
+}
+.padding-coin span{
+    text-indent: 20px;
+}
+.padding-coin button{
+    border: none;
+    background: none;
+    width:55px;
+    height:24px;
+    text-align: center;
+    line-height: 24px;
+    background:linear-gradient(90deg,rgba(255,154,31,1) 0%,rgba(255,105,31,1) 100%);
+    border-radius:4px;
+    font-size:12px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    margin-top: 24px;
+}
+.padding-coin button[disabled]{
+    opacity:0.5;
+}
+.lottery-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:15px;    
+}
+.lottery-small,.lottery-big{
+    width: 168px;
+    height: 110px;
+    border-radius:2px;
+    font-size:22px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(49,49,61,1);
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.lottery-small{
+    background:rgba(239,207,82,.2);
+}
+.lottery-big{
+    background:rgba(238,126,91,.2);
+}
+.btn{
+    width: 140px;
+    height: 30px;
+    margin-top: 25px;
+}
+.btn img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.pic-small,.pic-big{
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 80px;
+    height: 59px;
+    display: block;
+}
+.pic-big{
+    right:10px;    
+}
+.pop-block{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+}
+.pop-block img{
+    width: 100%;
+    height: 452px;
+    display: block;
+}
+.pop-money-block{
+    font-family:PingFangSC-Medium;
+    color:rgba(255,248,113,1);
+    font-size: 19px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 311px;
+    /* bottom:205px;     */
+
+    margin: auto;
+    text-align: center;
+    text-shadow:0px 4px 4px rgba(0,0,0,0.37);
+}
+.pop-money-block .pop-add{
+    font-size:37px;
+    font-family:fonteditor;
+}
+.pop-money-block .pop-money{
+    font-size:75px;
+    font-family:PingFangSC-Medium;
+    text-shadow:0px 4px 4px rgba(0,0,0,0.37);
+}
+.redpacket-block .red-bg{
+    position: fixed;
+    top: 61px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 360px;
+    width: 304px;
+}
+.my-money-block{
+    font-size:24px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,31,68,1);
+    position: fixed;
+    /* width: 100%; */
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    top: 137px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.my-money-block span{
+    font-size:40px;
+}
+.tixian{
+    width: 200px;
+    height: 48px;
+    position: fixed;
+    top: 314px;
+    left: 0;
+    right: 0;
+    margin: auto; 
+}
+.tixian img{
+    width: 100%;
+    height:60px;    
+    display: block;
+}
+.red-tip{
+    font-size:14px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    height: 22px;
+    line-height: 22px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 195px;
+    text-align: center;
+}
+.red-rule{
+    position: relative;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+.red-rule::after{
+    content: '';
+    position: absolute;
+    width:1px;
+    height:13px;
+    background:rgba(255,255,255,1);
+    opacity:0.6031;
+    top: 3px;
+    right: 0;
+}
+.close{
+    width: 36px;
+    height: 36px;
+    background: url("../../assets/image/ic_coin_close.png") no-repeat;
+    background-size: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 71px;
+    margin: auto;
+}

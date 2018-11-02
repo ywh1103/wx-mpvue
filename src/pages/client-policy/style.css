@@ -1,0 +1,70 @@
+.content-page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-size:13px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(106,106,115,1);
+}
+.content-page li{
+    border-bottom: 1px solid #EEEEF0;
+    padding-bottom: 28px;
+    background: url("../../assets/image/ic_b_more_gray@2x.png") no-repeat right center;
+    background-size:24px;
+}
+.product-title{
+    font-size:17px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(49,49,61,1);
+    height: 40px;
+    line-height:40px;
+    /* margin-top: 10px;  */
+}
+.product-title .product-status{
+    font-size:11px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(0,199,109,1);
+    width:50px;
+    height:20px;
+    border-radius:2px;
+    border:1px solid rgba(0,199,109,1);
+    float:right;
+    line-height:22px;
+    text-align:center;
+    padding:0;
+    margin-top:10px;
+    margin-right:190px;    
+}
+.product-title .terminal{
+    border:1px solid rgba(163,163,168,1);
+    color:rgba(106,106,115,1);
+}
+.product-policyholder-name,.product-insure-date,.product-date{
+    height: 20px;
+    line-height: 20px;
+}
+.product-date{
+    width: 303px;
+}
+.none{
+    text-align: center;
+    font-size:15px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(106,106,115,1);
+}
+.none img{
+    width: 184px;
+    height: 201px;
+    display: block;
+    margin: 124px auto 0;
+}
+.none div{
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+}

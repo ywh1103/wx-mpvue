@@ -1,0 +1,167 @@
+.content-page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* background-color: rgb(243, 246, 250); */
+    background-color: #F8F8F8;
+  }
+  li{
+      list-style: none;
+  }
+  .content-page button{
+      border: none;
+      background: none;
+  }
+  .content-page li{
+      margin-bottom: 12px;
+      background-color: #fff;
+      padding: 15px;
+  }
+  .product-banner{
+      width: 100%;
+      height: 130px;
+  }
+  .product-banner img{
+      width: 100%;
+      height: 100%;
+      display: block;
+  }
+  .product-title-block{
+      height: 24px;
+      line-height: 24px;
+      margin-top: 8px;
+  }
+  .product-title-block .product-name{
+    font-size:17px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(49,49,61,1);
+  }
+  .product-title-block .product-share{
+    width:65px;
+    height:24px;
+    line-height: 24px;
+    text-align: center;
+    background:linear-gradient(90deg,rgba(255,154,31,1) 0%,rgba(255,105,31,1) 100%);
+    border-radius:2px;
+    font-size:12px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+  }
+  .prodect-detail-block{
+    font-size:13px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(106,106,115,1);
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top:15px;    
+  }
+  .prodect-detail-block span{
+    font-size:13px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(49,49,61,1);
+  }
+  .share-block,.browse-block,.order-block{
+      position: relative;
+  }
+  .share-block::after,.browse-block::after,.order-block::after{
+      position: absolute;
+      content: '';
+      width:1px;
+      height:16px;
+      background-color: #D8D8D8;
+      top: 0;
+      right: -25px;
+  }
+  .tip-block{
+      height: 115px;
+      background:rgba(255,249,215,1);
+      padding: 0 15px;
+      font-size:13px;
+      font-family:PingFangSC-Regular;
+      font-weight:400;
+      color:rgba(49,49,61,1);
+      box-sizing: border-box;
+  }
+  .tip-title{
+      height: 38px;
+      line-height: 38px;
+      color:rgba(195,163,3,1);
+      background: url("../../assets/image/ic_share_question.png") no-repeat 0 center;
+      background-size: 15px;
+      text-indent: 21px;
+  }
+  .tip-content{
+      margin: 3px 0;
+  }
+  .tip-footer{
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,105,31,1);
+    margin-top: 6px;
+  }
+  .toast-block{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left:0;
+      background-color: rgba(0,0,0,.7);
+      font-size:14px;
+      font-family:PingFangSC-Regular;
+      font-weight:400;
+      color:rgba(106,106,115,1);
+  }
+  .toast-contnet{
+      width:290px;
+      height: 258px;
+      background: #fff;
+      margin: 110px auto 0;
+      font-size:14px;
+      font-family:PingFangSC-Regular;
+      font-weight:400;
+      color:rgba(106,106,115,1);
+      padding: 0 20px;
+      box-sizing: border-box;
+      border-radius:4px;
+  }
+  .toast-title{
+      height: 52px;
+      line-height: 52px;
+      text-align: center;
+      font-size:18px;
+      font-family:PingFangSC-Medium;
+      font-weight:500;
+      color:rgba(49,49,61,1);
+      margin-top: 10px;
+  }
+  .toast-content p{
+      margin-bottom: 6px;
+  }
+  .toast-footer{
+    font-size:13px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,105,31,1);
+  }
+  .toast-block button{
+    width:165px;
+    height:30px;
+    background:linear-gradient(90deg,rgba(255,154,31,1) 0%,rgba(255,105,31,1) 100%);
+    border-radius:4px;
+    font-size:13px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    margin-top: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .toast-block button[disabled]{
+      opacity: .5;
+  }

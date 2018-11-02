@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/client/main",
+    "pages/index/main",
+    "pages/change/main",
+    "pages/client-info/main",
+    "pages/coin-detail/main",
+    "pages/client-policy/main",
+    "pages/client-detail/main",
+    "pages/packet-detail/main",
+    "pages/coin/main",
+    "pages/product/main",
+    "pages/limit/main",
+    "pages/packet-withdraw/main",
+    "pages/rule/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF691F",
+    "navigationBarTitleText": "民生健康",
+    "navigationBarTextStyle": "#fff"
+  }
+}
